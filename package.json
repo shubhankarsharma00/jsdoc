@@ -1,6 +1,7 @@
 {
   "name": "jsdoc",
-  "private": true,
+  "private": false,
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "devDependencies": {
     "@jsdoc/eslint-config": "^1.0.8",
@@ -21,5 +22,9 @@
   },
   "scripts": {
     "test": "gulp"
+  },
+  "dependencies": {
+    "better-docs": "^2.0.1",
+    "jsdoc-export-default-interop": "^0.3.1"
   }
 }
