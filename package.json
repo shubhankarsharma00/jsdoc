@@ -21,5 +21,9 @@
   },
   "scripts": {
     "test": "gulp"
+  },
+  "dependencies": {
+    "better-docs": "^2.0.1",
+    "jsdoc-export-default-interop": "^0.3.1"
   }
 }
